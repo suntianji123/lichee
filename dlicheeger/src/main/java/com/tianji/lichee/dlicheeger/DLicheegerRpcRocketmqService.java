@@ -1,9 +1,8 @@
 package com.tianji.lichee.dlicheeger;
 
-import com.tianji.lichee.dlicheeger.remoting.RemotingClient;
-import com.tianji.lichee.dlicheeger.remoting.RemotingServer;
-import com.tianji.lichee.dlicheeger.remoting.rocketmq.RocketmqRemotingClient;
-import com.tianji.lichee.dlicheeger.remoting.rocketmq.RocketmqRemotingServer;
+
+import com.tianji.lichee.remoting.rocketmq.RocketmqRemotingClient;
+import com.tianji.lichee.remoting.rocketmq.RocketmqRemotingServer;
 
 public class DLicheegerRpcRocketmqService implements DLicheegerRpcService {
 
